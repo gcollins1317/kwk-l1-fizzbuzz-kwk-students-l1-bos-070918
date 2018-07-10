@@ -1,4 +1,4 @@
-def fizzbuzz(x=gets)
+def fizzbuzz(x)
   if x%3==0 && x%5==0
     "FizzBuzz"
   
@@ -9,6 +9,6 @@ def fizzbuzz(x=gets)
     "Buzz"
     end
   end 
-  puts fizzbuzz(x.to_i) 
+  puts fizzbuzz(gets.to_i) 
   
     
