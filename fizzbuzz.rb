@@ -6,7 +6,7 @@ def fizzbuzz(x=gets.chomp)
     elsif x%5==0 
     "Buzz"
   else 
-    " "
+    return nil
   end 
   puts fizzbuzz 
   
