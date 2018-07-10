@@ -7,4 +7,6 @@ def fizzbuzz(x=gets.chomp)
     "Buzz"
   else 
   end 
+  puts fizzbuzz 
+  
     
