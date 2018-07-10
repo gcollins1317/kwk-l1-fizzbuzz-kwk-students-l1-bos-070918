@@ -11,6 +11,6 @@ def fizzbuzz(x)
       " "
     end
   end 
-  puts fizzbuzz(5) 
+  puts fizzbuzz(25) 
   
     
