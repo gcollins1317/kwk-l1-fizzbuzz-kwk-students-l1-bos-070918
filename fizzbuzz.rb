@@ -7,8 +7,7 @@ def fizzbuzz(x=gets.chomp)
   
     elsif x%5==0 
     "Buzz"
-  
-  else 
+    else 
     end
   end 
   puts fizzbuzz 
