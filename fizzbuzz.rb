@@ -1,4 +1,4 @@
-def fizzbuzz(x=gets.chomp)
+def fizzbuzz(x)
   if x%3==0 && x%5==0
     "FizzBuzz"
   
@@ -11,6 +11,6 @@ def fizzbuzz(x=gets.chomp)
       " "
     end
   end 
-  puts fizzbuzz 
+  puts fizzbuzz(5) 
   
     
