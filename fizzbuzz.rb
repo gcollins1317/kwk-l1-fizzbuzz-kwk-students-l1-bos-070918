@@ -1,4 +1,4 @@
-def fizzbuzz(x=gets.chomp)
+def fizzbuzz(x=5)
   if x%3==0 && x%5==0
     "FizzBuzz"
     elsif x%3==0
